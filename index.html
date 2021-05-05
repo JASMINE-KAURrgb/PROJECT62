@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<div class="menu1" id="mynavbar">
+    <span> <a href="#home"> HOME</a></span>
+    <span> <a href="#grid"> GRID VIEW</a></span>
+    <span> <a href="#slide"> SLIDING VIEW</a></span>
+    <span> <a href="#contact"> CONTACT</a></span>
+</div>
+
+<body>
+    <section id="home">
+        <img id="img1" src="TITLE%20.gif">
+    </section>
+    <br> <br> <br>
+    <section id="grid">
+        <h6> MY GRID GALLERY</h6>
+        <div class="row">
+            <img class="img2" src="HARRY.jpeg">
+            <img class="img2" src="RON.jpeg">
+            <img class="img2" src="HERMIONE.jpeg">
+            <img class="img2" src="HAGRID.jpeg">
+        </div>
+        <div class="row">
+            <img class="img2" src="DUMBLEDORE.jpeg">
+            <img class="img2" src="MINERVA.jpeg">
+            <img class="img2" src="REMUS.jpeg">
+            <img class="img2" src="SEVERUS.jpeg">
+        </div>
+    </section>
+    <br> <br> <br>
+    <section id="slide">
+        <h6> SLIDING GALLERY</h6>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="HARRY.jpeg" style="width:100%" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3> Harry James Potter</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="RON.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3> Ronald Billius Weasley</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="HERMIONE.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3> Hermione Jean Granger</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="HAGRID.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3> Rubeus Hagrid</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="DUMBLEDORE.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Albus Percival Wulfric Brian Dumbledore</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="MINERVA.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3> Minerva McGonagall</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="REMUS.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Remus Lupin</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="SEVERUS.jpeg" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3>Severus Snape </h3>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- left and right controls -->
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"> </span>
+                <span class="sr-only"> PREVIOUS</span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-right"> </span>
+                <span class="sr-only"> NEXT</span>
+            </a>
+        </div>
+    </section>
+    <section id="contact">
+        <h6> CONTACT ME HERE</h6>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+        <hr style="width: 100%;">
+        <div class="contact_1"> 
+        <a href="mailto:my@gmail.com?subject=high"> 
+            <h5> <i class="fa fa-envelope"> My Gmail ID @gmail.com
+                </i></h5>
+            </a>
+            <a href=""> 
+            <h5> <i class="fa fa-instagram"> My Instagram ID
+                </i></h5>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+#img1 {
+    width: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+.img2 {
+    width: 250px;
+    height: 200px;
+}
+
+#mycarousel {
+    background-color: antiquewhite;
+
+}
+
+#mycarousel img {
+    height: 350px;
+
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+}
+h3{
+    color: black;
+    font-size: 20px;
+}
+h6{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-style: underline;
+}
+.menu1{
+    color: blue;
+    font-size: 50px;
+    font-style: bold;
+}
